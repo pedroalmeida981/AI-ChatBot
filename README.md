@@ -25,7 +25,7 @@ Despite this repository's name, it **does not train or serve an AI model**.
 - **PAB Bot.ipynb** — exploratory notebook.
 - **data.txt** — empty sample output file, rewritten when the file-writing cell runs.
 - **listofitems.db** — SQLite file in the repository; no active database integration was found in the inspected notebook.
-- **.ipynb_checkpoints/** — notebook-generated metadata.
+- **.gitignore** — excludes local Python environments, generated notebook checkpoints and local data from new commits.
 
 ## Run the experiment
 
@@ -49,7 +49,7 @@ No external model credentials are necessary, and no automated runtime verificati
 - The notebook mixes two independent experiments: chat matching and data collection.
 - The text-file loop has no structured validation, data minimisation or privacy safeguards.
 - No meaningful automated tests, package lockfile or deployment interface is provided.
-- Temporary notebook/checkpoint and database files deserve cleanup review.
+- The tracked SQLite database and empty sample data file deserve a separate review before being retained or removed. Previously tracked files remain in history even when ignored.
 
 ## QA learning opportunities
 
