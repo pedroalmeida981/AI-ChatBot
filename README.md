@@ -55,8 +55,6 @@ No external model credentials are necessary, and no automated runtime verificati
 
 Test unmatched phrases, whitespace/case variants, pattern priority, exit behaviour, unsupported intents, unexpected input and personally identifiable data handling. Consider extracting pure functions from the notebook so they can be unit tested.
 
-See [Interview and QA notes](docs/INTERVIEW_PREP.md).
-
 ## Portfolio context
 
 An early Python/NLTK learning exercise. The main value is understanding the limits of hard-coded conversational logic and describing concrete improvements, rather than claiming advanced AI engineering.
